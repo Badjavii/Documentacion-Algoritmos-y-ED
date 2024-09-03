@@ -11,7 +11,7 @@
     Este repositorio está destinado a ser un espacio colaborativo para compartir ejercicios, publicar material teórico y trabajar con el plan de clases de la materia de Estructuras de Datos. Aquí encontrarás recursos útiles para mejorar tu comprensión y habilidades en este campo.
   </p>
   <p>
-    El repositorio es mantenido por Andres Forero (Estudiante Tutor) y Javier Otero (Administrador del Repositorio y Ayudante). Nuestro objetivo es documentar nuestro proceso de aprendizaje y colaborar en proyectos relacionados con estructuras de datos.
+    El repositorio es mantenido por Andres Forero (Estudiante Tutor) y Javier Otero (Administrador del Repositorio y Ayudante). Nuestro objetivo es documentar nuestro proceso de aprendizaje y colaborar en proyectos relacionados con estructuras de datos en el lenguaje C++.
   </p>
 </div>
 
