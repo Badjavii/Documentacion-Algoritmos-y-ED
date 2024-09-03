@@ -8,7 +8,7 @@
 
 <div style="text-align:justify;">
   <p>
-    Este repositorio está destinado a ser un espacio colaborativo para compartir ejercicios, publicar material teórico y trabajar con el plan de clases de la materia de Estructuras de Datos. Aquí encontrarás recursos útiles para mejorar tu comprensión y habilidades en este campo.
+    Este repositorio está destinado a ser un espacio colaborativo para compartir ejercicios, publicar material teórico y trabajar con el plan de clases de la materia de Estructuras de Datos en el lenguaje C++. Aquí encontrarás recursos útiles para mejorar tu comprensión y habilidades en este campo.
   </p>
   <p>
     El repositorio es mantenido por Andres Forero (Estudiante Tutor) y Javier Otero (Administrador del Repositorio y Ayudante). Nuestro objetivo es documentar nuestro proceso de aprendizaje y colaborar en proyectos relacionados con estructuras de datos en el lenguaje C++.
@@ -20,22 +20,46 @@
 <h2 align="center">Instalación de C++</h2>
 
 <div>
-  <p>Para programar en C++, necesitas instalar un compilador. Aquí te mostramos varias opciones para iniciar a programar en C++:</p>
-  <ul>
-    <li><strong>Visual Studio Code:</strong> Instala la extensión <code>C/C++</code> de Microsoft y la extensión <code>C++ Intellisense</code>.</li>
-    <li><strong>Code::Blocks:</strong> Descarga e instala desde <a href="http://www.codeblocks.org/downloads">Code::Blocks</a>.</li>
-    <li><strong>Dev-C++:</strong> Descarga e instala desde <a href="https://sourceforge.net/projects/orwelldevcpp/">Dev-C++</a>.</li>
-    <li><strong>Visual Studio:</strong> Descarga e instala Visual Studio 2022 o versiones anteriores desde <a href="https://visualstudio.microsoft.com/">Visual Studio</a>.</li>
-  </ul>
-</div>
+  <p>
+    C++ es un lenguaje que no necesita ser descargado e instalado, sin embargo, requiere de un compilador. Un compilador es una herramienta que traduce el código fuente escrito en un lenguaje de programación (como C++) a un lenguaje máquina que la computadora puede ejecutar. Los compiladores son esenciales para convertir tus programas en ejecutables, permitiendo que el hardware de la computadora los entienda y ejecute.
+  </p>
+  
+  <p>Para programar en C++, necesitas instalar un compilador. Aquí te mostramos algunos compiladores:</p>
 
-<table align="center">
-  <tr>
-    <td style="width:50%; text-align:center; vertical-align:top;">
-      <h3 align="center">Software y Herramientas</h3>
-      <img src="https://skillicons.dev/icons?i=vscode,codeblocks,devcpp,visualstudio&perline=4&theme=dark"/>
-    </td>
-  </tr>
-</table>
+  <ul>
+    <li>
+      <strong>Visual Studio Code:</strong>
+      <ul>
+        <li><strong>Aspecto Positivo:</strong> Ligero y altamente personalizable.</li>
+        <li><strong>Aspecto Negativo:</strong> Requiere configuración adicional para el desarrollo en C++.</li>
+        <li><strong>Instalación:</strong> Instala la extensión <code>C/C++</code> de Microsoft y la extensión <code>C++ Intellisense</code>.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Code::Blocks:</strong>
+      <ul>
+        <li><strong>Aspecto Positivo:</strong> Interfaz intuitiva y fácil de usar.</li>
+        <li><strong>Aspecto Negativo:</strong> Menos extensible en comparación con otros IDEs.</li>
+        <li><strong>Instalación:</strong> Descarga e instala desde <a href="http://www.codeblocks.org/downloads">Code::Blocks</a>.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Dev-C++:</strong>
+      <ul>
+        <li><strong>Aspecto Positivo:</strong> Ligero y rápido de instalar.</li>
+        <li><strong>Aspecto Negativo:</strong> Menos actualizado y con menos características avanzadas.</li>
+        <li><strong>Instalación:</strong> Descarga e instala desde <a href="https://sourceforge.net/projects/orwelldevcpp/">Dev-C++</a>.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Visual Studio:</strong>
+      <ul>
+        <li><strong>Aspecto Positivo:</strong> Potentes características y asistencia inteligente de código.</li>
+        <li><strong>Aspecto Negativo:</strong> Puede ser intensivo en recursos.</li>
+        <li><strong>Instalación:</strong> Descarga e instala Visual Studio 2022 o versiones anteriores desde <a href="https://visualstudio.microsoft.com/">Visual Studio</a>.</li>
+      </ul>
+    </li>
+  </ul>
+
 
 <!--! reecom !-->
