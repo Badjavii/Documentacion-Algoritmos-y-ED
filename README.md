@@ -70,23 +70,51 @@
   <p>Las estructuras de datos con punteros son aquellas que utilizan punteros para gestionar y organizar los datos en la memoria. Los punteros permiten una gestión más flexible y eficiente de la memoria, facilitando la implementación de estructuras como listas enlazadas, árboles y grafos.</p>
 </div>
 
-<!--! Differences and Benefits of Data Structures with and without Pointers !-->
+<!--! Recommended Tools for Practice !-->
 
-<h2 align="center">Diferencias y Beneficios entre Estructuras de Datos con y sin Punteros</h2>
+<h2 align="center">Herramientas Recomendadas para Practicar</h2>
 
-<div>
-  <p><strong>Con Punteros:</strong></p>
+<div style="text-align:justify;">
+  <p>Para mejorar tus habilidades en algoritmos y estructuras de datos, te recomendamos utilizar las siguientes herramientas y recursos en línea:</p>
   <ul>
-    <li><strong>Ventajas:</strong> Mayor flexibilidad y eficiencia en la gestión de memoria, facilidad para implementar estructuras dinámicas.</li>
-    <li><strong>Desventajas:</strong> Mayor complejidad en la gestión de memoria, riesgo de errores como fugas de memoria y punteros nulos.</li>
+    <li>
+      <strong>Applets de Árboles y Otras Estructuras:</strong>
+      <ul>
+        <li><strong>Uso:</strong> Visualiza y manipula diferentes estructuras de datos como árboles, grafos y listas enlazadas.</li>
+        <li><strong>Importancia:</strong> Ayuda a entender la dinámica y el comportamiento de las estructuras de datos en tiempo real.</li>
+      </ul>
+    </li>
+    <li>
+      <strong><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">CS.usfca.edu</a>:</strong>
+      <ul>
+        <li><strong>Uso:</strong> Ofrece una variedad de recursos educativos, incluyendo visualizaciones interactivas de algoritmos y estructuras de datos.</li>
+        <li><strong>Importancia:</strong> Proporciona una comprensión profunda y visual de cómo funcionan los algoritmos y estructuras de datos.</li>
+      </ul>
+    </li>
+    <li>
+      <strong><a href="https://visualgo.net">Visualgo.net</a>:</strong>
+      <ul>
+        <li><strong>Uso:</strong> Plataforma interactiva para visualizar y aprender sobre algoritmos y estructuras de datos.</li>
+        <li><strong>Importancia:</strong> Facilita el aprendizaje mediante animaciones y explicaciones detalladas de cada paso del algoritmo.</li>
+      </ul>
+    </li>
+    <li>
+      <strong><a href="https://algorithm-visualizer.org">Algorithm-Visualizer.org</a>:</strong>
+      <ul>
+        <li><strong>Uso:</strong> Herramienta interactiva para visualizar la ejecución de algoritmos en tiempo real.</li>
+        <li><strong>Importancia:</strong> Permite experimentar con diferentes algoritmos y ver cómo se comportan con distintos conjuntos de datos.</li>
+      </ul>
+    </li>
+    <li>
+      <strong><a href="https://www.toptal.com/developers/sorting-algorithms">Topal/Sorting-Algorithms</a>:</strong>
+      <ul>
+        <li><strong>Uso:</strong> Repositorio que ofrece visualizaciones de varios algoritmos de ordenamiento.</li>
+        <li><strong>Importancia:</strong> Ayuda a comparar la eficiencia y el funcionamiento de diferentes algoritmos de ordenamiento.</li>
+      </ul>
+    </li>
   </ul>
-  <p><strong>Sin Punteros:</strong></p>
-  <ul>
-    <li><strong>Ventajas:</strong> Simplicidad en la implementación y gestión, menor riesgo de errores relacionados con la memoria.</li>
-    <li><strong>Desventajas:</strong> Menor flexibilidad y eficiencia en la gestión de memoria, limitaciones en la implementación de estructuras dinámicas.</li>
-  </ul>
-
 </div>
+
 
 
 
