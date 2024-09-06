@@ -33,6 +33,6 @@ Para el manejo de los punteros se hace uso de los siguientes operadores:
         int y = *p; // 'y' ahora contiene el valor de 'x', que es 10
         ```
 
-## Indireccionamiento
+## 
 
-El indireccionamiento es el proceso de acceder al valor almacenado en la dirección de memoria a la que apunta un puntero. Esto se logra utilizando el operador de indireccionamiento (*). En otras palabras, el operador * permite "desreferenciar" un puntero, obteniendo el valor de la variable a la que apunta.
+**Indireccionamiento:** Es el proceso de acceder al valor almacenado en la dirección de memoria a la que apunta un puntero. Esto se logra utilizando el operador de indireccionamiento `*`. En otras palabras, el operador `*` permite "desreferenciar" un puntero, obteniendo el valor de la variable a la que apunta.
