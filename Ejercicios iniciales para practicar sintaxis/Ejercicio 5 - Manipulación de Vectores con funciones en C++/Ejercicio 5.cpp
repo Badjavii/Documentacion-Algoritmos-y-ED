@@ -12,8 +12,8 @@ void leervector(int A[], int n)
     {
         cout << "\nA[" << i << "]= ";
         cin >> A[i]; 
-    }
-}
+    };
+};
 
 // Función para escribir (imprimir) los datos de un vector.
 void escribevector(int A[], int n)
@@ -23,7 +23,7 @@ void escribevector(int A[], int n)
     for (i = 0; i < n; i++)
     {
         cout << "\nA[" << i << "]= " << A[i];
-    }
+    };
     // Nota: En C++, cuando los ciclos iterativos y los condicionales tienen
     // una sola instrucción, se puede obviar el uso de llaves "{}".
 };
