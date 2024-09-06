@@ -5,8 +5,8 @@ En C++, una función es un bloque de código que realiza una tarea específica. 
 ## Ventajas de Usar Funciones
 
 - **Modularidad:** Permiten dividir el código en módulos más pequeños y manejables.
--**Reutilización:** El código de una función puede ser reutilizado en diferentes partes del programa.
--**Mantenimiento:** Facilitan la actualización y el mantenimiento del código.
+- **Reutilización:** El código de una función puede ser reutilizado en diferentes partes del programa.
+- **Mantenimiento:** Facilitan la actualización y el mantenimiento del código.
 
 ## Enunciado del Ejercicio
 
