@@ -1,6 +1,6 @@
 # Punteros o Apuntadores
 
-La arquitectura del computador se basa principalmente en un "bus de datos" que se constituye por canales de comunicación que permiten la transferencia de datos entre la CPU, la memoria y los dispositivos de entrada/salida[^1^][3]. Estos buses permiten a los componentes del sistema intercambiar información entre ellos.
+La arquitectura del computador se basa principalmente en un "bus de datos" que se constituye por canales de comunicación que permiten la transferencia de datos entre la CPU, la memoria y los dispositivos de entrada/salida. Estos buses permiten a los componentes del sistema intercambiar información entre ellos.
 
 Como bien se sabe, una variable es una dirección de memoria principal asociada a un nombre, un valor y un tipo de variable. Esto se representa gráficamente como un contenedor (una caja).
 
@@ -10,7 +10,7 @@ Mientras tanto, un apuntador es una variable cuyo contenido es una dirección de
 
 Para el manejo de los punteros se hace uso de los siguientes operadores:
 
-- **Ampersand (&)**: Colocar Ampersand delante de una variable sirve para obtener la dirección física de la variable.
+- **Ampersand `&`**: Colocar Ampersand delante de una variable sirve para obtener la dirección física de la variable.
 
     ```cpp
     int x = 10;
@@ -18,7 +18,7 @@ Para el manejo de los punteros se hace uso de los siguientes operadores:
     p = &x; // 'p' ahora contiene la dirección de memoria de 'x'
     ```
 
-- **Asterisco (*)**: El Asterisco tiene dos usos diferentes dependiendo del contexto:
+- **Asterisco `*`**: El Asterisco tiene dos usos diferentes dependiendo del contexto:
     - Colocar Asterisco delante de una variable que está siendo declarada indica que esa variable es en realidad un apuntador. En otras palabras, se está declarando un apuntador.
 
         ```cpp
