@@ -14,13 +14,14 @@ De tal forma, como anteriormente definimos un nodo con dos características, tam
 struct Nodo {
     int valor;          // Dato de tipo entero
     string nombre;      // Dato de tipo cadena de caracteres
-};```
+};
+```
 
 En este ejemplo, el nodo tiene dos características: un valor entero y un nombre de tipo cadena de caracteres.
 
 ## Operadores para Manejar la Información dentro de un Nodo
 
-Para manejar la información dentro de un nodo, especialmente cuando se trabaja con punteros a nodos, se utiliza el operador “->”. Este operador permite acceder a los miembros de una estructura a través de un puntero.
+Para manejar la información dentro de un nodo, especialmente cuando se trabaja con punteros a nodos, se utiliza el operador `->`. Este operador permite acceder a los miembros de una estructura a través de un puntero.
 
 [[EJEMPLO DE USO DEL OPERADOR PARA MANEJAR NODOS]]
 
