@@ -6,6 +6,8 @@ Dicha caja puede contener, por ejemplo, un dato de tipo entero. En ese caso, el 
 
 Sin embargo, si definimos un nodo con un dato de tipo entero y un dato de tipo cadena de caracteres, entonces el nodo se verá como una caja con dos compartimientos que separan la parte de la caja que almacena el dato de tipo entero del otro lado que almacena el dato de tipo cadena de caracteres.
 
+<img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/segundo%20diagrama.png">
+
 De tal forma, como anteriormente definimos un nodo con dos características, también podemos definir un nodo con la cantidad y tipo de características que deseemos y necesitemos. Aunque, hay que tomar en cuenta que la acción de agregar muchas características a un nodo puede resultar en un efecto negativo al rendimiento del programa.
 
 ### Ejemplo de Nodo con Múltiples Características
