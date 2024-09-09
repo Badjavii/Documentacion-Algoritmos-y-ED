@@ -31,7 +31,10 @@ En este ejemplo, el nodo tiene dos características: un valor entero y un nombre
 
 Para manejar la información dentro de un nodo, especialmente cuando se trabaja con punteros a nodos, se utiliza el operador `->`. Este operador permite acceder a los miembros de una estructura a través de un puntero.
 
-[[EJEMPLO DE USO DEL OPERADOR PARA MANEJAR NODOS]]
+```cpp
+int valor = Nodo->valor;                    
+cout << "El valor del nodo " << Nodo->nombre << " es: " << valor;
+```
 
 ## Nodos con Apuntadores a Otros Nodos
 
