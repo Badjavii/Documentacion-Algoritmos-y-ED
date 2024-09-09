@@ -23,6 +23,10 @@
   <p>
     C++ es un lenguaje que no necesita ser descargado e instalado, sin embargo, requiere de un compilador. Un compilador es una herramienta que traduce el código fuente escrito en un lenguaje de programación (como C++) a un lenguaje máquina que la computadora puede ejecutar. Los compiladores son esenciales para convertir tus programas en ejecutables, permitiendo que el hardware de la computadora los entienda y ejecute.
   </p>
+
+  <div align="center">
+    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/tercer%20diagrama.png" width="500" height="250">
+  </div>
   
   <p>Para programar en C++, necesitas instalar un compilador. Aquí te mostramos algunos compiladores:</p>
 
