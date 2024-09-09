@@ -32,7 +32,11 @@
       <ul>
         <li><strong>Aspecto Positivo:</strong> Ligero y altamente personalizable.</li>
         <li><strong>Aspecto Negativo:</strong> Requiere configuración adicional para el desarrollo en C++.</li>
-        <li><strong>Instalación:</strong> Instala la extensión <code>C/C++</code> de Microsoft y la extensión <code>C++ Intellisense</code>.</li>
+        <li><strong>Instalación:</strong> Instala la extensión <code>C/C++</code> de Microsoft y la extensión <code>C++ Intellisense</code>. Además, Visual Studio Code cuenta con dos tipos de coompiladores: </li>
+        <ul>
+          <li><strong>MSVC:</strong> Instala el compilador desde <a href="https://code.visualstudio.com/docs/cpp/config-msvc#_prerequisites">Visual Studio MSVC</a>.</li>
+          <li><strong>MinGW (recomendando):</strong> Instala el compilador desde <a href="https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites">Visual Studio MinGW</a>.</li>
+        </ul>
       </ul>
     </li>
     <li>
