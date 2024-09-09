@@ -11,7 +11,7 @@
     Este repositorio está destinado a ser un espacio colaborativo para compartir ejercicios, publicar material teórico y trabajar con el plan de clases de la materia de Estructuras de Datos en el lenguaje C++. Aquí encontrarás recursos útiles para mejorar tu comprensión y habilidades en este campo.
   </p>
   <p>
-    El repositorio es mantenido por Javier Otero (Administrador y Propietario del Repositorio). Nuestro objetivo es documentar nuestro proceso de aprendizaje y colaborar en la practica de ejercicios relacionados con estructuras de datos en el lenguaje C++.
+    El repositorio es mantenido por <a href="https://badjavii.github.io/">Badjavii</a> (Administrador y Propietario del Repositorio). Nuestro objetivo es documentar nuestro proceso de aprendizaje y colaborar en la practica de ejercicios relacionados con estructuras de datos en el lenguaje C++.
   </p>
 </div>
 
