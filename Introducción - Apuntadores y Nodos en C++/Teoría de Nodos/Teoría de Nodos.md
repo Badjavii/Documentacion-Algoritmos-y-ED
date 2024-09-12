@@ -40,4 +40,6 @@ cout << "El valor del nodo " << Nodo->nombre << " es: " << valor;
 
 Ya entendiendo el funcionamiento, podemos plantearnos la idea de agregar un apuntador a otro nodo como una característica de un nodo. Por ejemplo, si definimos un nodo con las características de un valor entero llamado “valor” y un apuntador a otro nodo llamado “amigo”, entonces estamos permitiendo que el nodo tenga un valor y la dirección de memoria de un “nodo amigo”. Tener la dirección de memoria de otro nodo dentro de un nodo establece gráficamente una conexión entre dos cajas diferentes. El nodo original tiene su “nodo amigo”, sin embargo, ese “nodo amigo” puede tener su propio “nodo amigo”, al cual el nodo original no puede acceder sin haber pasado antes por su nodo amigo.
 
-[[DIAGRAMA DEL EJEMPLO]]
+<div align="center">
+    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/cuarto%20diagrama.png">
+</div>
