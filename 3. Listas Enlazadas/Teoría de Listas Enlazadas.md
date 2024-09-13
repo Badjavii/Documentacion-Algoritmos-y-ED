@@ -13,7 +13,7 @@ Para poder manejar una lista enlazada, tenemos que tener en cuenta lo siguiente:
 ### Ejemplo
 
 <div align="center">
-    <img src="">
+    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/quinto%20diagrama.png">
 </div>
 
 Una lista enlazada de 5 nodos se recorre ingresando por el nodo cabeza para luego acceder al nodo siguiente del nodo actual, redefiniendo al nodo siguiente como el nuevo nodo actual. De esta forma, pasamos del primer nodo al segundo.
