@@ -121,3 +121,5 @@ En sí, es indiferente si los nodos que componen una lista circular tienen un do
 Técnicamente hablando, también se podría decir que las listas circulares tampoco tienen nodos cabeza, pero eliminar este concepto haría una complicación para comunicarnos en espacios de desarrollo. Por tal motivo, podemos usar técnicas adicionales para identificar al nodo cabeza de las listas circulares. Técnicas como el uso de un puntero auxiliar u otras.
 
 Las operaciones básicas y el manejo de las listas circulares es mucho más complicado. Puedes revisarlo a detalle en “Manejo Práctico-Teórico de Listas Circulares”.
+
+## Otros tipos de listas enlza
