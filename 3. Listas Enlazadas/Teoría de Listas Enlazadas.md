@@ -61,7 +61,7 @@ NodoLS *aux = *actu;        // Inicializacion de un puntero auxiliar a un nodo
 
 <table align="center">
     <td>
-        <img src="">
+        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/septimo%20diagrama.png">
     </td>
     <td>
         <img src="">
@@ -127,4 +127,6 @@ Las operaciones básicas y el manejo de las listas circulares es mucho más comp
 
 ## Otros Tipos de Listas Enlazadas
 
-Los profesores de instituciones de formación academica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas
+Los profesores de instituciones de formación academica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas. 
+
+El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la logica.
