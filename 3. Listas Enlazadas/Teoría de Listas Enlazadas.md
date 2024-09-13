@@ -64,7 +64,7 @@ NodoLS *aux = *actu;        // Inicializacion de un puntero auxiliar a un nodo
         <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/septimo%20diagrama.png">
     </td>
     <td>
-        <img src="">
+        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/sexto%20diagrama.png">
     </td>
 </table>
 
@@ -130,3 +130,5 @@ Las operaciones básicas y el manejo de las listas circulares es mucho más comp
 Los profesores de instituciones de formación academica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas. 
 
 El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la logica.
+
+La mayoria de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Logíco de Otros Tipos de Listas Enlazadas".
