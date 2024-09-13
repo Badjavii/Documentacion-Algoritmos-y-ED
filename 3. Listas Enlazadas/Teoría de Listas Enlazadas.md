@@ -27,6 +27,9 @@ while (NodoLista){
 
 <div align="center">
     <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/sexto%20diagrama.png">
+    <p>
+    Ahora en adelante, las ilustraciones ya no mostraran direcciones de memorio sino solo muestras graficas del comportamiento de las estructuras. Esto con el fin de optimizar la carga de trabajo para el administrador del repositorio.
+    </p>
 </div>
 
 Si repetimos dicha acción, pasaremos al tercer nodo hasta llegar al quinto nodo. Si intentamos acceder al nodo siguiente del nodo cola, el programa dará error, ya que el quinto nodo no tiene nodo siguiente.
@@ -122,4 +125,6 @@ Técnicamente hablando, también se podría decir que las listas circulares tamp
 
 Las operaciones básicas y el manejo de las listas circulares es mucho más complicado. Puedes revisarlo a detalle en “Manejo Práctico-Teórico de Listas Circulares”.
 
-## Otros tipos de listas enlza
+## Otros Tipos de Listas Enlazadas
+
+Los profesores de instituciones de formación academica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas
