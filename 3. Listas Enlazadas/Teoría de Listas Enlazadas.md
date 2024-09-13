@@ -131,4 +131,4 @@ Los profesores de instituciones de formación academica usualmente usan otros ti
 
 El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la logica.
 
-La mayoria de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Logíco de Otros Tipos de Listas Enlazadas".
+La mayoria de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Logíco de Otros Tipos de Listas Enlazadas.
