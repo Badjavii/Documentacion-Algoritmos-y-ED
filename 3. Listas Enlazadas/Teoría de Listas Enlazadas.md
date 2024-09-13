@@ -64,3 +64,41 @@ De inicio, esta tarea no se podrá llevar a cabo manejando los nodos. En cambio,
         <img src="">
     </td>
 </table>
+
+Puedes ver las operaciones básicas y algunos ejemplos más complejos del manejo de esta estructura en “Manejo Práctico-Teórico de Listas Simplemente Enlazadas”.
+
+### Listas Doblemente Enlazadas
+
+Las listas doblemente enlazadas representan un modelo un poco más dinámico de la estructura de las listas enlazadas.
+
+Los nodos que componen las listas doblemente enlazadas se caracterizan por contener dos apuntadores: uno dirigido a un nodo siguiente y el otro dirigido a un nodo previo. Esto hace que esta estructura se refleje gráficamente como una sucesión de nodos que se apuntan entre sí en ambos sentidos, es decir, cada nodo apunta a un nodo siguiente y a un nodo previo.
+
+```cpp
+struct NodoDS{
+    int valor;
+    NodoDS *prox;
+    NodoDS *prev;
+}
+```
+
+<div align="center">
+    <img src="">
+</div>
+
+En las listas doblemente enlazadas, incluso el nodo cabeza tiene un apuntador a un nodo previo; sin embargo, al referirnos al nodo cabeza de la lista, su nodo previo será nulo, ya que no existe.
+
+Al tratarse de una estructura que va en doble sentido, no es necesario usar un puntero auxiliar para acceder a nodos previos al nodo actual. Bastaría con usar:
+
+```cpp
+NodoDS = NodoDS->prev;
+```
+
+La implementación de operaciones básicas y el manejo de las listas doblemente enlazadas tiene sus ventajas y sus contras en términos de manejo del desarrollador. Puedes revisarlo a detalle en “Manejo Práctico-Teórico de Listas Doblemente Enlazadas”.
+
+### Listas Circulares
+
+Las listas circulares son la versión más compleja de la estructura de listas enlazadas.
+
+En sí, es indiferente si los nodos que componen una lista circular tienen un doble o un único sentido. Lo importante a tener en cuenta es que la arquitectura de una lista circular tiene como condición obligatoria que el nodo siguiente del nodo cola sea el nodo cabeza. Esto puede llegar a ser un poco contradictorio, ya que el hecho de que el nodo siguiente del nodo cola no sea un nodo nulo significa realmente que las listas circulares no cuentan con un nodo cola, es decir, las listas circulares no tienen fin y es eso lo que hace que gráficamente podamos representarlo como una sucesión de nodos con forma circular.
+
+Técnicamente hablando, también se podría decir que las listas circulares tampoco tienen nodos cabeza, pero eliminar este concepto haría una complicación para comunicarnos en espacios de desarrollo. Por tal motivo, podemos usar técnicas adicionales para identificar al nodo cabeza de las listas circulares. Técnicas como el uso de un puntero auxiliar u otras.
