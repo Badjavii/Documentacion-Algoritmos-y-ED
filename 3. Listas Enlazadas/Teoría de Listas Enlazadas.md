@@ -26,7 +26,7 @@ while (NodoLista){
 ```
 
 <div align="center">
-    <img src="">
+    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/sexto%20diagrama.png">
 </div>
 
 Si repetimos dicha acción, pasaremos al tercer nodo hasta llegar al quinto nodo. Si intentamos acceder al nodo siguiente del nodo cola, el programa dará error, ya que el quinto nodo no tiene nodo siguiente.
