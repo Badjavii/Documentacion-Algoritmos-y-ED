@@ -64,7 +64,7 @@ NodoLS *aux = *actu;        // Inicializacion de un puntero auxiliar a un nodo
         <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/septimo%20diagrama.png">
     </td>
     <td>
-        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/sexto%20diagrama.png">
+        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/octavo%20diagrama.png">
     </td>
 </table>
 
