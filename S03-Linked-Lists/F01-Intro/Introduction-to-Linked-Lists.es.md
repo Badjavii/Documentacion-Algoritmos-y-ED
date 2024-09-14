@@ -63,7 +63,7 @@ NodoLS *aux = *actu;        // Inicialización de un puntero auxiliar a un nodo
     </td>
 </table>
 
-Puedes ver las operaciones básicas y algunos ejemplos más complejos del manejo de esta estructura en “Manejo Práctico-Teórico de Listas Simplemente Enlazadas”.
+Puedes ver las operaciones básicas y algunos ejemplos más complejos del manejo de esta estructura en [Handling Singly-linked lists](/S03-Linked-Lists/F02-Handling-Singly-Linked-Lists/).
 
 ### Listas Doblemente Enlazadas
 
@@ -89,7 +89,7 @@ Al tratarse de una estructura que va en doble sentido, no es necesario usar un p
 NodoLD = NodoLD->prev;
 ```
 
-La implementación de operaciones básicas y el manejo de las listas doblemente enlazadas tiene sus ventajas y sus contras en términos de manejo del desarrollador. Puedes revisarlo a detalle en “Manejo Práctico-Teórico de Listas Doblemente Enlazadas”.
+La implementación de operaciones básicas y el manejo de las listas doblemente enlazadas tiene sus ventajas y sus contras en términos de manejo del desarrollador. Puedes revisarlo a detalle en [Handling Double Linked Lists](/S03-Linked-Lists/F03-Handling-Double-Linked-Lists/).
 
 ### Listas Circulares
 
@@ -116,7 +116,7 @@ En sí, es indiferente si los nodos que componen una lista circular tienen un do
 
 Técnicamente hablando, también se podría decir que las listas circulares tampoco tienen nodos cabeza, pero eliminar este concepto haría una complicación para comunicarnos en espacios de desarrollo. Por tal motivo, podemos usar técnicas adicionales para identificar al nodo cabeza de las listas circulares. Técnicas como el uso de un puntero auxiliar u otras.
 
-Las operaciones básicas y el manejo de las listas circulares es mucho más complicado. Puedes revisarlo a detalle en “Manejo Práctico-Teórico de Listas Circulares”.
+Las operaciones básicas y el manejo de las listas circulares es mucho más complicado. Puedes revisarlo a detalle en [Handling Circular Linked Lists](/S03-Linked-Lists/F04-Handling-Circular-Linked-Lists/).
 
 ## Otros Tipos de Listas Enlazadas
 
@@ -124,4 +124,4 @@ Los profesores de instituciones de formación académica usualmente usan otros t
 
 El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la lógica.
 
-La mayoría de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Lógico de Otros Tipos de Listas Enlazadas.
+La mayoría de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en [Handling Others Linked Lists](/S03-Linked-Lists/F05-Handling-Others-Linked-Lists/).
