@@ -60,3 +60,9 @@ To improve your skills in algorithms and data structures, we recommend using the
 - **[Toptal](https://www.toptal.com/developers/sorting-algorithms):**
   - **Use:** Repository that offers visualizations of various sorting algorithms.
   - **Importance:** Helps to compare the efficiency and operation of different sorting algorithms.
+
+
+###
+
+Proudly Designed by [Badjavii](https://github.com/Badjavii), junior dev. 
+Also with the colaboration of [Druxorey](https://github.com/druxorey).

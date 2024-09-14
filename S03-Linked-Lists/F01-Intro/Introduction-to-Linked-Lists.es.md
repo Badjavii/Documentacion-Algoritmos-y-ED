@@ -89,7 +89,7 @@ Al tratarse de una estructura que va en doble sentido, no es necesario usar un p
 NodoLD = NodoLD->prev;
 ```
 
-La implementación de operaciones básicas y el manejo de las listas doblemente enlazadas tiene sus ventajas y sus contras en términos de manejo del desarrollador. Puedes revisarlo a detalle en [Handling Double Linked Lists](/S03-Linked-Lists/F03-Handling-Double-Linked-Lists/).
+La implementación de operaciones básicas y el manejo de las listas doblemente enlazadas tiene sus ventajas y sus contras en términos de manejo del desarrollador. Puedes revisarlo a detalle en [Handling Double Linked Lists](/S03-Linked-Lists/F03-Handling-Doubly-Linked-Lists/).
 
 ### Listas Circulares
 
