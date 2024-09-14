@@ -12,9 +12,7 @@ Para poder manejar una lista enlazada, tenemos que tener en cuenta lo siguiente:
 
 ### Ejemplo
 
-<div align="center">
-    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/quinto%20diagrama.png">
-</div>
+![This is an image](/resources/linked-lists-base.png)
 
 Una lista enlazada de 5 nodos se recorre ingresando por el nodo cabeza para luego acceder al nodo siguiente del nodo actual, redefiniendo al nodo siguiente como el nuevo nodo actual. De esta forma, pasamos del primer nodo al segundo.
 
@@ -25,12 +23,9 @@ while (NodoLista){
 }
 ```
 
-<div align="center">
-    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/sexto%20diagrama.png">
-    <p>
-    Ahora en adelante, las ilustraciones ya no mostraran direcciones de memorio sino solo muestras graficas del comportamiento de las estructuras. Esto con el fin de optimizar la carga de trabajo para el administrador del repositorio.
-    </p>
-</div>
+![This is an image](/resources/linked-lists-path.png)
+
+Ahora en adelante, las ilustraciones ya no mostraran direcciones de memoria sino solo muestras gráficas del comportamiento de las estructuras. Esto con el fin de optimizar la carga de trabajo para el administrador del repositorio.
 
 Si repetimos dicha acción, pasaremos al tercer nodo hasta llegar al quinto nodo. Si intentamos acceder al nodo siguiente del nodo cola, el programa dará error, ya que el quinto nodo no tiene nodo siguiente.
 
@@ -56,15 +51,15 @@ struct NodoLS{
 De inicio, esta tarea no se podrá llevar a cabo manejando los nodos. En cambio, se hace uso de un puntero auxiliar el cual, mientras el puntero principal va recorriendo la estructura, el puntero auxiliar se mantendrá guardando la dirección de un nodo previo (ya sea el nodo cabeza o el nodo previo al nodo actual).
 
 ```cpp
-NodoLS *aux = *actu;        // Inicializacion de un puntero auxiliar a un nodo
+NodoLS *aux = *actu;        // Inicialización de un puntero auxiliar a un nodo
 ```
 
 <table align="center">
     <td>
-        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/septimo%20diagrama.png">
+        <img src="/resources/linked-lists-auxiliaty-pointer-1.png">
     </td>
     <td>
-        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/octavo%20diagrama.png">
+        <img src="/resources/linked-lists-auxiliaty-pointer-2.png">
     </td>
 </table>
 
@@ -84,9 +79,7 @@ struct NodoLD{
 }
 ```
 
-<div align="center">
-    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/noveno%20diagrama.png">
-</div>
+![This is an image](/resources/linked-lists-doubly.png)
 
 En las listas doblemente enlazadas, incluso el nodo cabeza tiene un apuntador a un nodo previo; sin embargo, al referirnos al nodo cabeza de la lista, su nodo previo será nulo, ya que no existe.
 
@@ -114,10 +107,10 @@ En sí, es indiferente si los nodos que componen una lista circular tienen un do
 
 <table align="center">
     <td>
-        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/decimo%20diagrama.png">
+        <img src="/resources/linked-lists-circular-1.png">
     </td>
     <td>
-        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/onceavo%20diagrama.png">
+        <img src="/resources/linked-lists-circular-2.png">
     </td>
 </table>
 
@@ -127,8 +120,8 @@ Las operaciones básicas y el manejo de las listas circulares es mucho más comp
 
 ## Otros Tipos de Listas Enlazadas
 
-Los profesores de instituciones de formación academica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas. 
+Los profesores de instituciones de formación académica usualmente usan otros tipos de listas enlazadas cuya complejidad es mucho más elevada para sus evaluaciones y practicas. 
 
-El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la logica.
+El uso principal de estos tipos de listas es simplemente servir como una practica para que los desarrolladores en formación trabajan la lógica.
 
-La mayoría de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Logíco de Otros Tipos de Listas Enlazadas.
+La mayoría de estos otros tipos listas enlazadas no son usadas en ambientes reales de desarrollo laboral, por ejemplo: el dipolo, la lista doblemente circular, entre otros. Puedes ver a detalle sobre estas estructuras complejas en "Manejo Práctico-Teórico-Lógico de Otros Tipos de Listas Enlazadas.
