@@ -114,10 +114,10 @@ En sí, es indiferente si los nodos que componen una lista circular tienen un do
 
 <table align="center">
     <td>
-        <img src="">
+        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/decimo%20diagrama.png">
     </td>
     <td>
-        <img src="">
+        <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/onceavo%20diagrama.png">
     </td>
 </table>
 
