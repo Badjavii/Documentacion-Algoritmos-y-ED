@@ -1,39 +1,39 @@
-# Nodos
+# Nodes
 
-Las estructuras de datos se componen principalmente por los nodos. Los nodos son estructuras desarrolladas a rasgos de nuestra conveniencia y se pueden ver gráficamente como una caja.
+Data structures are mainly composed of nodes. Nodes are structures developed according to our convenience and can be seen graphically as a box.
 
-Dicha caja puede contener, por ejemplo, un dato de tipo entero. En ese caso, el nodo se mantendrá como una caja que solo puede almacenar un dato de tipo entero.
+That box can contain, for example, an integer data type. In that case, the node will remain as a box that can only store an integer data type.
 
 ![This is an image](/resources/node-theory-interger.png)
 
-Sin embargo, si definimos un nodo con un dato de tipo entero y un dato de tipo cadena de caracteres, entonces el nodo se verá como una caja con dos compartimientos que separan la parte de la caja que almacena el dato de tipo entero del otro lado que almacena el dato de tipo cadena de caracteres.
+However, if we define a node with an integer data and a string data, then the node will look like a box with two compartments that separate the part of the box that stores the integer data from the other side that stores the string data.
 
 ![This is an image](/resources/node-theory-string.png)
 
-De tal forma, como anteriormente definimos un nodo con dos características, también podemos definir un nodo con la cantidad y tipo de características que deseemos y necesitemos. Aunque, hay que tomar en cuenta que la acción de agregar muchas características a un nodo puede resultar en un efecto negativo al rendimiento del programa.
+In the same way that we previously defined a node with two attributes, we can also define a node with as many attributes and types as we want and need. It is also important to note that adding too many attributes to a node can negatively impact the program's performance.
 
-### Ejemplo de Nodo con Múltiples Características
+## Example of a Node with Multiples Attributes
 
 ```cpp
 struct Nodo {
-    int valor;          // Dato de tipo entero
-    string nombre;      // Dato de tipo cadena de caracteres
+    int value;          // Integer data
+    string name;      // String data
 };
 ```
 
-En este ejemplo, el nodo tiene dos características: un valor entero y un nombre de tipo cadena de caracteres.
+In this example, the node has to attributes: an integer value and a string name.
 
-## Operadores para Manejar la Información dentro de un Nodo
+## Operators for Handling Information within a Node
 
-Para manejar la información dentro de un nodo, especialmente cuando se trabaja con punteros a nodos, se utiliza el operador `->`. Este operador permite acceder a los miembros de una estructura a través de un puntero.
+To handle information within a node, especially when working the pointers to node, the `->` operator is used. This operator allows access to the members of a structure through a pointer.
 
 ```cpp
-int valor = Nodo->valor;                    
-cout << "El valor del nodo " << Nodo->nombre << " es: " << valor;
+int value = Node->value;                    
+cout << "The value of the node " << Node->name << " is: " << value;
 ```
 
-## Nodos con Apuntadores a Otros Nodos
+## Nodes with Pointers to Other Nodes
 
-Ya entendiendo el funcionamiento, podemos plantearnos la idea de agregar un apuntador a otro nodo como una característica de un nodo. Por ejemplo, si definimos un nodo con las características de un valor entero llamado “valor” y un apuntador a otro nodo llamado “amigo”, entonces estamos permitiendo que el nodo tenga un valor y la dirección de memoria de un “nodo amigo”. Tener la dirección de memoria de otro nodo dentro de un nodo establece gráficamente una conexión entre dos cajas diferentes. El nodo original tiene su “nodo amigo”, sin embargo, ese “nodo amigo” puede tener su propio “nodo amigo”, al cual el nodo original no puede acceder sin haber pasado antes por su nodo amigo.
+Understanding this functionality, we can consider additing a pointer to another node as an attribute of a node. For example, if we define a node with the attributes of an integer value called "value" and a pointer to another node called "friend", we are allowing the node to have a value and the memory address of a "friend node". Having the memory address of another node within a node graphically establishes a connection between two different boxes. The original node has its "friend node", but that "friend node" can have its own "friend node", which the original node cannot access without first going through its friend node.
 
 ![This is an image](/resources/node-theory-pointers.png)
