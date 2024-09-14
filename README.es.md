@@ -62,7 +62,7 @@ Para mejorar tus habilidades en algoritmos y estructuras de datos, te recomendam
   - **Importancia:** Ayuda a comparar la eficiencia y el funcionamiento de diferentes algoritmos de ordenamiento.
 
 
-###
+#
 
 Proudly Designed by [Badjavii](https://github.com/Badjavii), junior dev. 
 Also with the colaboration of [Druxorey](https://github.com/druxorey).
