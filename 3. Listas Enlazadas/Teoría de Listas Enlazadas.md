@@ -85,7 +85,7 @@ struct NodoLD{
 ```
 
 <div align="center">
-    <img src="">
+    <img src="https://github.com/Badjavii/Documentacion-Algoritmos-y-ED/blob/main/Imagenes%20(Hacer%20caso%20omiso)/noveno%20diagrama.png">
 </div>
 
 En las listas doblemente enlazadas, incluso el nodo cabeza tiene un apuntador a un nodo previo; sin embargo, al referirnos al nodo cabeza de la lista, su nodo previo será nulo, ya que no existe.
