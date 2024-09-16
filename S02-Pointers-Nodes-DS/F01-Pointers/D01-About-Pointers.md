@@ -1,39 +1,38 @@
-# Punteros o Apuntadores
+# Pointers
 
-La arquitectura del computador se basa principalmente en un "bus de datos" que se constituye por canales de comunicación que permiten la transferencia de datos entre la CPU, la memoria y los dispositivos de entrada/salida. Estos buses permiten a los componentes del sistema intercambiar información entre ellos.
+Computer architecture is primarily based on a "data bus", which consists of communication channels that allow data transfer between the CPU, memory and input/output devices. These buses enable system components to exchange information with each other.
 
-Como bien se sabe, una variable es una dirección de memoria principal asociada a un nombre, un valor y un tipo de variable. Esto se representa gráficamente como un contenedor (una caja).
+As we know, a variable is a main memory address associated with a name, a value, and a type of variable. This is graphically represented as a container (a box).
 
-Mientras tanto, un apuntador es una variable cuyo contenido es una dirección de memoria, es decir, almacena la dirección de un contenedor (una variable).
+Meanwhile, a pointer is a variable whose content is a memory address, meaning it stores the address of a container (a variable).
 
-## Operadores para el Manejo de Punteros
+## Operators for Handling Pointers
 
-Para el manejo de los punteros se hace uso de los siguientes operadores:
+The following operators are used for handling pointers:
 
-- **Ampersand `&`**: Colocar Ampersand delante de una variable sirve para obtener la dirección física de la variable.
+- **Ampersand `&`**: Placing an ampersand before a variable is used to obtain the physical address of the variable.
 
     ```cpp
     int x = 10;
     int *p;
-    p = &x; // 'p' ahora contiene la dirección de memoria de 'x'
+    p = &x; // 'p' now contains the memory address of 'x'
     ```
-
-- **Asterisco `*`**: El Asterisco tiene dos usos diferentes dependiendo del contexto:
-    - Colocar Asterisco delante de una variable que está siendo declarada indica que esa variable es en realidad un apuntador. En otras palabras, se está declarando un apuntador.
+- **Asterisk `*`**: The asterisk has two different uses depending on the context:
+    - Placing an asterisk before a variable being declared indicates that the variable is actually a pointer. In other words, a pointer is being declared.
 
         ```cpp
-        int *p; // Declaración de un puntero a un entero
+        int *p; // Declaration of a pointer to an integer
         ```
 
-    - Colocar Asterisco delante de una variable que no está siendo declarada señala indireccionamiento. Es decir, va a la dirección que guarda el puntero y toma su contenido.
+    - Placing an asterisk before a variable that is not being declared indicates dereferencing. So it goes to the address stored in the pointer and takes its content.
 
         ```cpp
         int x = 10;
         int *p = &x;
-        int y = *p; // 'y' ahora contiene el valor de 'x', que es 10
+        int y = *p; // 'y' now contains the value of 'x', which is 10
         ```
 
 
 
-> [!NOTE]
-> **Indireccionamiento:** Es el proceso de acceder al valor almacenado en la dirección de memoria a la que apunta un puntero. Esto se logra utilizando el operador de indireccionamiento `*`. En otras palabras, el operador `*` permite "desreferenciar" un puntero, obteniendo el valor de la variable a la que apunta.
+[!NOTE]
+**Dereferencing:** It is the process of accessing the value stored at the memory address to which a pointer points. This is achieved using the dereferencing aperator `*`. In other words, the `*` operator allows "dereferencing" a pointer, obtaining the value of the variable it points to.
